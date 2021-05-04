@@ -59,7 +59,6 @@ p{
 }
 .container{
     max-width: 3000px;
-    
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
@@ -88,22 +87,7 @@ p{
     line-height: 70px;
     margin: 25px 0;
 }
-.login-form{
-    display: inline-block;
- 
-    color: #000;
-    padding: 8px 30px;
-    margin: 30px 0;
-    border-radius: 30px;
-}
-.sub-box{
-    display: inline-block;
-    
-    color: #000;
-    padding: 8px 10px;
-    margin: 10px 0;
-    border-radius: 30px;
-}
+
 .header{
     
     background-image: url(https://phamdo18.com/wp-content/uploads/2020/10/tong-hop-nhung-hinh-nen-galaxy-dep-nhat-hien-nay6.jpg) ;
@@ -416,4 +400,62 @@ footer .container-footer .noi-dung.about p{
     footer .container, .noi-dung.about, .links, .contact{
         width: 100%;
     }
+}
+
+/*-----shopping cart-----*/
+.cart-page{
+    margin: 80px auto;
+    
+}
+table td{
+    width: 100px;
+    border-collapse: collapse;
+    padding-left: 100px;
+    padding-right: -100px ;    
+}
+table th{
+    width: 400px;
+    
+}
+body {
+	margin-top: 200px;
+}
+.container{
+    size: 1000%;
+}
+
+/*-------account page-------*/
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+    color: black;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+.text-center{
+    color:black;
 }
